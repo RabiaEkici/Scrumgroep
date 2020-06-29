@@ -3,18 +3,19 @@ $naam = "Carl";
 $straat = "Kruislaan 111";
 $woonplaats = "Utrecht";
 
-$nav = $naam . " " . $straat . " " . $woonplaats;
-echo "Gegevens: $nav";
+$naw = $naam . " " . $straat . " " . $woonplaats;
+echo "Gegevens: $naw";
 
 echo <<<TEKST
-<br>Salarisspecificatie van $naam: 2000 euro
-<br>Maand: November
-<br>Jaar: 2020
-TEKST;
-
+    <br>Salarisspecificatie van $naam: 2000 Euro
+    <br>Maand: November
+    <br>Jaar: 2020
+    TEKST;
 
 $dollars = 999.99;
 $koers = 1.2;
-$euros = round( $dollars * $koers, 2);
-echo "<br>$euros";
+$euros = $dollars * $koers;
+$eind = round($euros, 2);
+
+echo "<br>Bedrag in euro's is: $eind"
 ?>

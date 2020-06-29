@@ -21,5 +21,5 @@ if($gewerkteuren > 40){
     echo "<br>Uw nettobedrag is: €". $netto;
 }
 
-print $voorwaarde = ($gewerkteuren < 40 ? "<br>Belasting is 40%" : "<br>Belasting is 45%");
+print $voorwaarde = ($gewerkteuren < 40 ? "<br>Belasting is 40%!" : "<br>Belasting is 45%!");
 ?>

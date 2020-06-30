@@ -1,0 +1,307 @@
+html {
+    height: auto;
+    margin: auto;
+    width: auto;
+    background-color: white;
+}
+body{
+    height: 330%;
+    width: 100%;
+    margin: 0px;
+    background-color: #404040;
+    Position:relative;
+}
+#BodyLink_Home{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #404040;
+    Position:relative;
+}
+nav {
+    background: #181818;
+    border-bottom: 6px solid lime;
+    box-shadow: 3px 0px 5px grey;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 650px;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index:1;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 30px 40px;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    right: 100px;
+}
+nav li:hover{
+    background: lime;
+    transition: 0.7s;
+}
+nav #logo{
+    height: 30px;
+    width: 40px;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+a:visited
+{
+    text-decoration: none; color:white; 
+}
+G{
+    color:white;
+    font-weight: bold;
+    float: left;
+    margin-top: 25px;
+    font-size: 30px;
+}
+W{
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 45%;
+}
+#TitelTristan{
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 37%;
+}
+#TitelRabia{
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 40%;
+}
+#TitelSimon{
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 35%;
+}
+#TitelRuben{
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 37%;
+}
+#TitelJustin{
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 35%;
+}
+#outerLink{
+    top:0;
+    left:0;
+    top: 184px;
+    width:100%;
+    height: 800px;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 10%;
+}
+#Tekst{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 20%;
+}
+#GroepsFoto{
+    border-radius: 8px;
+    top: 6%;
+    right: 15%;
+    overflow: hidden;
+    position: absolute;
+}
+#outer{
+    position:fixed;
+    top:0;
+    left:0;
+    top: 184px;
+    width:100%;
+    height:100%;
+}
+#inner{
+    width: 50%;
+    height: 50%;
+    top: 6%;
+    right: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#LinkTristan{
+    width: 900px;
+    height: 100px;
+    top: 20%;
+    left: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#LinkRabia{
+    width: 900px;
+    height: 100px;
+    top: 23%;
+    right: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#LinkSimon{
+    width: 900px;
+    height: 100px;
+    top: 25%;
+    left: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#LinkRuben{
+    width: 900px;
+    height: 100px;
+    top: 28%;
+    right: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#LinkJustin{
+    width: 900px;
+    height: 100px;
+    top: 31%;
+    left: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#outerGroup{
+    top:0;
+    left:0;
+    top: 184px;
+    width:100%;
+    height:100%;
+}
+#innerGroupTristan{
+    width: 900px;
+    height: 470px;
+    top: 6%;
+    right: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#innerGroupRabia{
+    width: 900px;
+    height: 470px;
+    top: 9%;
+    left: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#innerGroupSimon{
+    width: 900px;
+    height: 470px;
+    top: 12%;
+    right: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#innerGroupRuben{
+    width: 900px;
+    height: 470px;
+    top: 15%;
+    left: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#innerGroupJustin{
+    width: 900px;
+    height: 470px;
+    top: 18%;
+    right: 17%;
+    margin: 0 auto;
+    position: relative;
+    background: #303030;
+    border-radius: 8px;
+}
+#TristanFoto{
+    border-radius: 8px;
+    top: 6%;
+    right: 18%;
+    overflow: hidden;
+    position: absolute;
+}
+#RabiaFoto{
+    border-radius: 8px;
+    top: 24.17%;
+    left: 18%;
+    overflow: hidden;
+    position: absolute;
+}
+#SimonFoto{
+    border-radius: 8px;
+    top: 42.35%;
+    right: 18%;
+    overflow: hidden;
+    position: absolute;
+}
+#RubenFoto{
+    border-radius: 8px;
+    top: 60.52%;
+    left: 14%;
+    overflow: hidden;
+    position: absolute;
+}
+#JustinFoto{
+    border-radius: 8px;
+    top: 78.7%;
+    right: 18%;
+    overflow: hidden;
+    position: absolute;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #181818; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: lime; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: limegreen; 
+}

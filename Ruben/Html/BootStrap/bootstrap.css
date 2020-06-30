@@ -1,0 +1,205 @@
+.opacity-0 {
+    opacity: 0; 
+} 
+.opacity-10 {
+    opacity: 0.1; 
+}
+.opacity-20 {
+    opacity: 0.2; 
+}
+.opacity-30 {
+    opacity: 0.3;
+}
+.opacity-40 {
+    opacity: 0.4; 
+}
+.opacity-50 {
+    opacity: 0.5; 
+}
+.opacity-60 {
+    opacity: 0.6; 
+}
+.opacity-70 {
+    opacity: 0.7; 
+}
+.opacity-80 {
+    opacity: 0.8; 
+}
+.opacity-90 {
+    opacity: 0.9;
+}
+.opacity-100 {
+    opacity: 1; 
+}
+
+.navbar {
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+.UnderNav{
+    margin-top: 2%;
+}
+.centerSchuin{
+    overflow: hidden;
+    position: absolute;
+    margin-left: 43%;
+    transform: skew(15deg);
+}
+.centerRecht{
+    overflow: hidden;
+    position: absolute;
+    margin-left: 75%;
+    padding-top: 50px;;
+}
+.navbarOverflow{
+    overflow: hidden;
+}
+.behind{
+    z-index: -10;
+}
+.body{
+    margin-right: auto;
+    margin-left: auto;
+}
+p{
+    color: white;
+    margin-left: 15%;
+}
+tekst{
+    color: white;
+    
+}
+GalleryTekst1{
+    color: black;
+    font-size: 25px;
+    margin-left: 160px;
+}
+GalleryTekst2{
+    color: black;
+    font-size: 25px;
+    margin-left: 310px;
+}
+GalleryTekst3{
+    color: black;
+    font-size: 25px;
+    margin-left: 280px;
+}
+GalleryTekst4{
+    color: black;
+    font-size: 25px;
+    margin-left: 300px;
+}
+GalleryTekstCream{
+    color: black;
+    font-size: 25px;
+    margin-left: 160px;
+}
+
+UiterlijkTitel{
+    margin-top: 30%;
+    margin-left: 100px;
+    font-size: 25px;
+}
+OnderdeelTitel{
+    margin-left: 100px;
+    font-size: 25px;
+}
+.OnderdeelTekst{
+    padding-left: 120px;
+    padding-right: 100px;
+}
+.UiterlijkTekst{
+    padding-left: 120px;
+    padding-right: 100px;
+}
+.tekstmargin{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Contactmargin{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.LogoSize{
+    height: 40px;
+    width: 40px;
+}
+.MarginGalleryLeft{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.MarginGalleryRight{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.GalleryHeight{
+    height: 600px;
+    width: auto;
+}
+.GalleryHeightCream{
+    height: 600px;
+    width: 400px;
+}
+.GalleryHeightChocolade{
+    height: 600px;
+    width: 478px;
+}
+.GallerySecondRow{
+    margin-top: 100px;
+    height: 600px;
+    width: 300px;
+}
+.space{
+    height: 80px;
+    width: 100%;
+}
+.spacetop{
+    height: 40px;
+    width: 100%;
+}
+.MarginGallerySecondRowRight{
+    margin-right: 15%;
+    margin-top: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+} 
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #181818; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: darkgrey; 
+}

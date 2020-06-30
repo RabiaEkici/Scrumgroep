@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Lab 1.03 </title>
+</head>
+<body>
+<p id="oppervlakte"></p>
+<p id="volume"></p>
+<script>
+    // breedte = 10
+    var breedte = 10;
+
+    // lengte = 11
+    var lengte = 11;
+
+    // hoogte = 5
+    var hoogte = 5;
+
+    // oppervlakte = lengte * breedte
+    oppervlakte = lengte * breedte;
+
+    // volume = oppervlakte * hoogte
+    volume = oppervlakte * hoogte;
+
+    // html tag met een ID oppervlakte
+    // html tag met een ID volume
+
+    // getELementbyID oppervlakte = "Containerbasisoppervlakte is:" + oppervlakte
+    document.getElementById("oppervlakte").innerHTML = "Containerbasisoppervlakte is: "+oppervlakte;
+
+    // getELementbyID volume = Containervolume is: volume
+    document.getElementById("volume").innerHTML = "Containervolume is: " + volume;
+</script>
+</body>
+</html>

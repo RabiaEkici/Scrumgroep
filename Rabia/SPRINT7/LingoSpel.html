@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p id="letters"></p>
+<p id="randomNumber"></p>
+<script>
+    /*Vraag (opmaak)
+    array van steden
+    playerInput veld voor steden (prompt)
+    4 beurten (gokken) > counter
+
+    genererenBord()
+    kies een willekeurige stad uit array > lingowoord
+    aantal ???? laten zien > hiddenwoord
+
+
+    gokf()
+
+    controleren welke letters goed zijn >
+    for loop
+        if lingowoord[i] == gok[i]
+
+            hiddenwoord[i] = lingowoord[i]
+
+
+    juiste letters laten zien
+
+    If (.....) {  yes
+        check of alle letters geraden zijn
+        ja > win
+        nee:
+            beurt++
+        heb je nog een beurt?
+            nee > gameover
+            ja > playerinput
+
+        extra > punten
+
+
+        lingowoord = parijs
+        hiddenwoord = ??r???
+            gok = playerinput
+
+            playerinput > Lorden
+
+        for i > draait het aantal letters van lingowoord
+        if (lingowoord[i] == gok[i]){
+            hiddenwoord[i] = gok[i]
+        }
+
+        if hiddenwoord = lingowoord
+            win()*/
+
+
+    var hiddenWoord = "";
+    var counter = 4;
+    var gewonnen = "Je hebt gewonnen";
+    var playerInput = "";
+
+    var steden = new Array ('Amsterdam','Berlijn','London','Parijs','Rome','Amsterdam','praag','brussel');
+    var lingoWoord = "";
+
+    // aantal letters tellen
+    var getal;
+    var randomGetal;
+
+    function GenererenBord()
+    {
+
+
+        var i = steden.length;
+
+        //hoe random number???????????????????????????????????????????????
+
+        randomGetal = Math.floor((Math.random() * i) + 0);
+        document.getElementById("randomNumber").innerHTML += randomGetal;
+
+
+        //kies een willekeurige stad uit array > lingowoord
+        lingoWoord = steden[randomGetal];
+
+        getal = lingoWoord.length;
+
+        //aantal ?? ?? laten zien > hiddenwoord
+        // opschrijven van vraagtekens
+
+        for ( i=0; i < getal; i++) {
+            hiddenWoord += "?";
+        }
+
+        document.getElementById("letters").innerHTML += hiddenWoord;
+    }
+    GenererenBord();
+/*
+    document.write("<br> doe een gok en raad de stad: ");
+    //playerinput = prompt want hij antwoord in een zin
+    playerInput = prompt("Gok 1: ");
+
+    //controleren welke letters goed zijn >
+    for (var i = 0; i < lingowoord.length ; i++) {
+       if(lingowoord[i] == gok[i]){
+           hiddenwoord[i] = lingowoord[i]
+       }
+
+    }
+*/
+
+
+
+
+
+
+    /*function start() {
+        for (i = 0; i < word.length; i++) {
+            letters[i] = "__";
+        }*/
+
+</script>
+</body>
+</html>
